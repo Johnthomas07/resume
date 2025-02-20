@@ -3,72 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Simple E-Commerce Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    body{
-        background-color: antiquewhite;
-    }
-    .title{
-        width: 100%;
-        text-align: center;
-        height: 50px;
-        color: rgb(27, 12, 231);
-        font-size: larger;
-    }
-    .contact{
-        width: 50%;
-        background-color: rgb(160, 159, 97);
-        border-radius: 1rem;
-    }
-  
-</style>
 <body>
-    <div class="title">
-        <h1>JOHN THOMAS</h1>
-    </div>
-    <div class="contact">
-        <h2>CONTACT</h2>
-       <p><a href="tel:+9344978569">9344978569</a></p>
-        <p><a href="mailto:johnthomas22@karunya.edu.in">johnthomas22@karunya.edu.in</a></p>
-         <P><a href="https://www.linkedin.com/in/johnthomast19/">linkedin</a></P>
-         <p>278,north street panisakulam,Tirunelveli</p>
-    </div>
-    <div class="skills">
-        <h2>SKILLS</h2>
-        <p>web development</p>
-        <p>c,c++</p>
-        <p>java,sql</p>
-    </div>
-     <div class="education">
-        <h2>EDUCATION</h2>
-        <P>Karunya institude of Technology
-            and Science,coimbatore
-            B.Tech
-        </P>
-        <p>
-            computer science engineering
-            july 2022 -may2026(pursuing)
-            
-        </p>
-        <p>
-            kings Matric, Higher Secondary
-            school,trinelveli
-        </p>
-        <p>
-            XII Standard june 2021 -april 2022
-        </p>
-     </div>
-         <div class="language">
-            <p>ENGLISH</p>
-            <P>TAMIL</P>
-            <P>MALAIYALAM</P>
-         </div>
-             
+    <header>
+        <h1>My E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      
-    </div>
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>$10.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>$15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Product 3">
+                <h2>Product 3</h2>
+                <p>$20.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
 
-    </div>
+    <footer>
+        <p>&copy; 2023 My E-Commerce Store</p>
+    </footer>
 </body>
 </html>
